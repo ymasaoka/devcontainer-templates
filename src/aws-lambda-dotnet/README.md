@@ -6,4 +6,4 @@ Develop C# and .NET based AWS Lambda. Includes all needed SDKs, extensions, and 
 
 | Id | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
-| sdkVariant | .NET Version: | string | 8.0-bookworm |
+| imageVariant | .NET Version: | string | 8.0-bookworm |
