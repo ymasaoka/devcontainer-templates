@@ -1,4 +1,4 @@
-name: CI
+name: "Publish latest devcontainer templates"
 
 # Controls when the workflow will run
 on:
