@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  lambda:
+    image: mcr.microsoft.com/devcontainers/dotnet:dev-${templateOption:imageVariant}
+    volumes:
+      - ..:/workspace:cached
+      - ~/.aws:/home/vscode/.aws
+    command: sleep infinity
+    working_dir: /workspace
+    user: vscode

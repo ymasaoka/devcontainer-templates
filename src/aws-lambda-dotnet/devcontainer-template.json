@@ -1,0 +1,27 @@
+{
+    "id": "aws-lambda-dotnet",
+    "version": "0.0.1",
+    "name": "AWS Lambda (.NET)",
+    "description": "Develop C# and .NET based AWS Lambda. Includes all needed SDKs, extensions, and dependencies.",
+    "documentationURL": "https://github.com/ymasaoka/devcontainers-templates/tree/main/src/aws-lambda-dotnet",
+    "publisher": "ymasaoka",
+    "licenseURL": "https://github.com/ymasaoka/devcontainers-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": ".NET Version:",
+            "proposals": [
+                "8.0-bookworm",
+                "6.0-bookworm",
+                "6.0-bullseye"
+            ],
+            "default": "8.0-bookworm"
+        }
+    },
+    "platforms": [
+        "AWS Lambda",
+        ".NET",
+        ".NET Core",
+        "C#"
+    ]
+}
